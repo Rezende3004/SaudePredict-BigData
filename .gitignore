@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDEs
+.vscode/
+.idea/
+
+# Google Cloud / Sensível
+*.json
+credentials/
+.env
+
+# Dados
+data/raw/*.csv
+
+# Spark & Hadoop temporary files
+*.crc
+_SUCCESS
+data/processed/
