@@ -60,17 +60,16 @@ python src/cloud_ingestion.py
 ## Performance do Modelo
 O algoritmo Random Forest Classifier alcancou uma performance de 98.64% de acuracia no conjunto de testes. A escolha do modelo se justifica pela sua robustez em lidar com variaveis clinicas nao-lineares e resistencia ao overfitting.
 
-## Estrutura de Pastas
 SaudePredict-BigData/
 ├── data/
-│   ├── processed/    # Predicoes finais e dados tratados
+│   ├── processed/    # Predições finais e dados tratados
 │   └── raw/          # Datasets brutos (CSV)
-├── docs/             # Relatorio tecnico e documentacao adicional
-├── src/              # Codigo-fonte do projeto
+├── docs/             # Relatório técnico e documentação adicional
+├── src/              # Código-fonte do projeto
 │   ├── arquitetura_projeto.py
 │   ├── cloud_ingestion.py
 │   ├── data_generator.py
 │   └── processing_ml.py
-├── .gitignore        # Configuracao para evitar envio de metadados do Spark
+├── .gitignore        # Configuração para ignorar metadados do Spark
 ├── README.md
 └── requirements.txt
